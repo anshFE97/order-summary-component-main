@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    max-width: 1440px;
+}
+
+main {
+    display: block;
+    max-width: 380px;
+    min-height: 550px;
+    max-height: 600px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3%;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 5% auto;
+
+}
+
+section > * {
+    padding: 5px;
+    margin:5px 0 10px 0;
+}
+
+.music-img {
+    max-width: 380px;
+    max-height: 200px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 25px auto 0 auto;
+}
+
+span {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+p {
+    max-width: 300px;
+    font-size: 0.9em;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-weight: 500;
+
+}
+
+
+.change {
+    margin-left: 27%;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.change:hover {
+    color:rgb(118, 108, 241);
+}
+
+
+.price {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    height: 75px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 10px auto 15px auto;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    gap: 20px;
+    padding: 15px;
+}
+
+
+.music-icon {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+.confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    max-width: 300px;
+    padding: 10px 65px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 0.7rem;;
+    font-weight: 700;
+}
+
+p, .cancel-btn, .cost {
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+    background: none;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.payment:hover {
+    background-color: rgb(118, 108, 241);
+}
+
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (max-width:375px) {
+
+
+    body {
+        max-width: 375px;
+    }
+    main {
+        max-width: 350px;
+        max-height: 600px;
+        overflow: hidden;
+        margin: auto;
+    
+    }
+
+    p {
+        max-width: 250px;
+        height: 50px;
+        margin: auto;
+    
+    }
+}
